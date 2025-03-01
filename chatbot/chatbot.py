@@ -36,7 +36,7 @@ class ModelChain:
 
     # OpenRouter Response Method
     def get_openrouter_response(self, user_input):
-        prompt = f"<question>{user_input}</question>\n\n"
+        prompt = user_input
         
         self.openrouter_messages.append({"role": "user", "content": prompt})
         

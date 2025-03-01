@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-rat = "chatbot.chatbot:main"
+chatbot = "chatbot.chatbot:main"
 
 [build-system]
 requires = ["hatchling"]
