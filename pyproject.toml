@@ -1,7 +1,7 @@
 [project]
 name = "chatbot"
 version = "0.1.0"
-description = "A CLI based Chabot"
+description = "A CLI based Chabot with Persistent Memory"
 requires-python = ">=3.11"
 dependencies = [
     "colorama>=0.4.6",
@@ -10,6 +10,7 @@ dependencies = [
     "pyperclip>=1.9.0",
     "python-dotenv>=1.0.1",
     "rich>=13.9.4",
+    "pymongo>=4.6.0",
 ]
 
 [project.scripts]
